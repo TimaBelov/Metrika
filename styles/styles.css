@@ -91,3 +91,8 @@ header img {
     border: none;
     border-radius: 5px;
 }
+
+.about_us button:hover{
+    background-color: #810606;
+    cursor: pointer;
+}
