@@ -1,0 +1,93 @@
+header {
+    display: flex;
+    margin-top: 32px;
+    margin-bottom: 70px;
+}
+
+header img {
+    margin-left: 124px;
+}
+
+.links {
+    display: flex;
+    margin-left: auto;
+    margin-right: 64px;
+}
+
+.links p{
+    margin-right: 60px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.container{
+    margin: 0 125px; 
+}
+
+.container h1{
+    margin-bottom: 30px;
+
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 60px;
+    font-family: 'Manrope', sans-serif;
+}
+
+.photo_pod_h1 {
+    background-image: url("../resources/Rectangle 1.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 1150px;
+    height: 500px;
+    position: relative;
+    margin-bottom: 150px;
+}
+
+.photo_pod_h1_text {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.photo_pod_h1_text p{
+    padding-bottom: 40px;
+    padding-left: 40px;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    font-family: 'Manrope', sans-serif;
+}
+
+.about_us h2{
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'Manrope',sans-serif;
+    margin-bottom: 30px;
+}
+
+.about_us p{
+    margin-left: 3px;
+    margin-bottom: 30px;
+
+    font-family: 'Manrope',sans-serif;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 60px;
+
+}
+
+.about_us button{
+    font-family: 'Manrope',sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: white;
+
+    background-color: #AD1818;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 5px;
+}
