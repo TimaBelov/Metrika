@@ -14,12 +14,20 @@ header img {
     margin-right: 64px;
 }
 
-.links p{
+.links a{
     margin-right: 60px;
     font-family: 'Manrope', sans-serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
+
+    text-decoration: none;
+    color:#121212;
+}
+
+.links a:hover{
+    color: #3a3a3a;
+    text-decoration: underline;
 }
 
 .container{
@@ -248,7 +256,6 @@ footer{
 }
 
 .footer_links a{
-    margin-right: 55px;
     color: white;
     text-decoration: none;
 
@@ -258,6 +265,10 @@ footer{
     line-height: 24px;
 
     margin-bottom: 67px;
+}
+
+.footer_links p{
+    margin-right: 55px;
 }
 
 .podpis{
@@ -271,3 +282,5 @@ footer{
 
     padding-bottom: 30px;
 }
+
+
