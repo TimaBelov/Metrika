@@ -8,13 +8,13 @@ header img {
     margin-left: 124px;
 }
 
-.links {
+.header_links {
     display: flex;
     margin-left: auto;
     margin-right: 64px;
 }
 
-.links a{
+.header_links a{
     margin-right: 60px;
     font-family: 'Manrope', sans-serif;
     font-weight: 400;
@@ -25,7 +25,7 @@ header img {
     color:#121212;
 }
 
-.links a:hover{
+.header_links a:hover{
     color: #3a3a3a;
     text-decoration: underline;
 }
@@ -36,7 +36,6 @@ header img {
 
 .container h1{
     margin-bottom: 30px;
-
     font-weight: 400;
     font-size: 60px;
     line-height: 60px;
@@ -179,11 +178,11 @@ header img {
     line-height: 24px;
 }
 
-.services img{
+.service img{
     margin-bottom: 15px;
 }
 
-.services h3{
+.service h3{
     color: white;
     font-family: 'Manrope',sans-serif;
     font-size: 30px;
@@ -258,18 +257,18 @@ footer{
 .footer_links a{
     color: white;
     text-decoration: none;
-
     font-family: 'Manrope',sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 24px;
-
     margin-bottom: 67px;
-}
-
-.footer_links p{
     margin-right: 55px;
 }
+
+.footer_links a:last-child{
+    margin-right: 0;
+}
+
 
 .podpis{
     color: gray;
