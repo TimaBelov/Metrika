@@ -36,7 +36,7 @@ nav img {
 }
 
 .nav_links a:hover{
-    color: #3a3a3a;
+    color: #5e5e5e;
     text-decoration: underline;
 }
 
@@ -67,16 +67,17 @@ nav img {
     background-size: contain;
     width: 100%;
     height: 500px;
+    background-position: 50% 100%;
     position: relative;
     margin-bottom: 150px;
 }
 
-.photo_pod_h1_text {
+.photo_pod_h1 p{
     position: absolute;
     bottom: -3px;
 }
 
-.photo_pod_h1_text p{
+.photo_pod_h1 p{
     display: block;
     width: 430px;
     padding-bottom: 40px;
@@ -121,7 +122,6 @@ nav img {
 }
 
 .about_us button:hover{
-    background-color: #810606;
     cursor: pointer;
 }
 
