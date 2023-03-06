@@ -3,7 +3,7 @@ html{
 }
 
 body{
-    width: 1440px;
+    max-width: 1440px;
     margin: 0 auto;
 }
 
@@ -14,13 +14,14 @@ header {
 }
 
 header img {
-    margin-left: 124px;
+    margin-left: 143px;
 }
 
 .header_links {
     display: flex;
     margin-left: auto;
-    margin-right: 64px;
+    margin-right: 87px;
+    letter-spacing: -0.03em;
 }
 
 .header_links a{
@@ -40,11 +41,8 @@ header img {
 }
 
 .container{
-    margin: 0 125px; 
+    margin: 0 146px; 
 }
-/* .container img{
-    width: 100%;
-} */
 
 .container h1{
     margin-bottom: 30px;
@@ -52,6 +50,7 @@ header img {
     font-size: 60px;
     line-height: 60px;
     font-family: 'Manrope', sans-serif;
+    letter-spacing: -0.03em;
 }
 
 .container h2{
@@ -59,7 +58,7 @@ header img {
     font-size: 18px;
     line-height: 24px;
     font-family: 'Manrope',sans-serif;
-    margin-bottom: 30px;
+    margin-bottom: 32px;
 }
 
 .photo_pod_h1 {
@@ -74,10 +73,12 @@ header img {
 
 .photo_pod_h1_text {
     position: absolute;
-    bottom: 0;
+    bottom: -3px;
 }
 
 .photo_pod_h1_text p{
+    display: block;
+    width: 430px;
     padding-bottom: 40px;
     padding-left: 40px;
     color: white;
@@ -85,6 +86,7 @@ header img {
     font-size: 20px;
     line-height: 27px;
     font-family: 'Manrope', sans-serif;
+    letter-spacing: -0.03em;
 }
 
 .about_us{
@@ -92,14 +94,16 @@ header img {
 }
 
 .about_us p{
+    display: block;
+    width: 1051px;
     margin-left: 3px;
-    margin-bottom: 30px;
+    margin-bottom: 39px;
 
     font-family: 'Manrope',sans-serif;
     font-weight: 400;
     font-size: 45px;
     line-height: 60px;
-
+    letter-spacing: -0.03em;
 }
 
 .about_us button{
@@ -108,6 +112,7 @@ header img {
     font-size: 20px;
     line-height: 27px;
     color: white;
+    letter-spacing: -0.03em;
 
     background-color: #AD1818;
     padding: 20px 40px;
@@ -129,12 +134,13 @@ header img {
     font-size: 30px;
     font-weight: 400;
     line-height: 41px;
+    letter-spacing: -0.03em;
 
     margin-bottom: 15px;
 }
 
 .projects_container img{
-    margin-bottom: 15px;
+    margin-bottom: 8px;
     max-width: 100%;
     height: auto;
 }
@@ -146,10 +152,11 @@ header img {
     line-height: 27px;
     color: #AD1818;
     text-decoration: none;
+    letter-spacing: -0.03em;
 }
 
 .project{
-    margin-bottom: 90px;
+    margin-bottom: 93px;
 }
 
 .projects_container button{
@@ -158,6 +165,7 @@ header img {
     font-weight: 400;
     line-height: 41px;
     color: #AD1818;
+    letter-spacing: -0.03em;
 
     padding: 56px 0;
     border: 1px solid #AD1818;
@@ -174,7 +182,7 @@ header img {
 
 .services_container{
     background-color: black;
-    padding: 0 125px 150px 125px;
+    padding: 0 125px 150px 147px;
 }
 
 .services_container h2{
@@ -185,6 +193,7 @@ header img {
     font-size: 18px;
     font-weight: 400;
     line-height: 24px;
+    letter-spacing: -0.03em;
 }
 
 .service img{
@@ -199,10 +208,11 @@ header img {
     font-size: 30px;
     font-weight: 400;
     line-height: 41px;
+    letter-spacing: -0.03em;
 }
 
 .service{
-    margin-bottom: 60px;
+    margin-bottom: 56px;
 }
 
 .service:last-child{
@@ -210,12 +220,13 @@ header img {
 }
 
 .project_photo{
+    background-image: url(../resources/project_photo.jpg);
+    height: 717px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
     position: relative;
     margin-bottom: 150px;
-}
-
-.project_photo img{
-    width: 100%;
 }
 
 .project_photo h3{
@@ -223,6 +234,7 @@ header img {
     font-size: 30px;
     font-weight: 400;
     line-height: 41px;
+    letter-spacing: -0.03em;
 
     color: white;
     width: 443px;
@@ -230,32 +242,64 @@ header img {
     position: absolute;
     bottom: 0;
     padding-bottom: 60px;
-    padding-left: 125px;
+    padding-left: 148px;
 }
 
 .contacts{
-    margin-bottom: 150PX;
+    margin-left: 141px;
+    margin-bottom: 161px;
 }
 
-.contacts img{
+
+
+.contacts::before{
+    content: '';
+    display: block;
+    background-image: url(../resources/phone_icon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 24px;
+    height: 24px;
     margin-bottom: 12px;
 }
 
-.phone_mail{
-    margin-left: 5px;
+.contacts h2{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: 'Manrope',sans-serif;
+    margin-bottom: 32px;
+    letter-spacing: -0.03em;
 }
 
-.phone {
-    color:black
+.contact_info{
+    margin-left: 4px;
 }
 
-.mail{
+.contact_info a{
+    text-decoration: none;
+    font-family: 'Manrope',sans-serif;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -0.03em;
+}
+
+.phone{
+    margin-bottom: 30px;
+}
+
+.phone a{
+    color:black;
+}
+
+.mail a{
     color: gray;
+    border-bottom: 2px solid gray;
 }
 
-.mail h1::after{
+.mail h1{
     margin-top: 10px;
-    content: "";
     display: block;
     width: 434px;
     border-bottom: 2px solid gray;
@@ -279,9 +323,18 @@ footer{
     font-family: 'Manrope',sans-serif;
     font-size: 18px;
     font-weight: 400;
-    line-height: 24px;
-    margin-bottom: 67px;
-    margin-right: 55px;
+    line-height: 25px;
+    margin-bottom: 89px;
+    margin-right: 59px;
+    letter-spacing: -0.03em;
+}
+
+.footer_links a:hover{
+    color: gray;
+}
+
+.footer_links a:first-child{
+    margin-right: 53px;
 }
 
 .footer_links a:last-child{
@@ -299,6 +352,7 @@ footer{
     line-height: 27px;
 
     padding-bottom: 30px;
+    letter-spacing: -0.03em;
 }
 
 
