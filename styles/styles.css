@@ -65,9 +65,9 @@ nav img {
     background-image: url("../resources/Rectangle 1.jpg");
     background-repeat: no-repeat;
     background-size: contain;
-    width: 100%;
+    display: block;
+    width: 1400px;
     height: 500px;
-    background-position: 50% 100%;
     position: relative;
     margin-bottom: 150px;
 }
