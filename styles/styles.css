@@ -3,30 +3,29 @@ html{
 }
 
 body{
-    max-width: 1400px;
+    max-width: 100%;
     margin: 0 auto;
+    font-family: 'Manrope', sans-serif;
 }
 
-nav {
-    display: flex;
-    margin-top: 32px;
-    margin-bottom: 70px;
+header {
+    max-width: 1400px;
+    margin: 32px auto 70px auto;
 }
 
-nav img {
+header img {
     margin-left: 124px;
 }
 
-.nav_links {
+nav {
+    float: right;
     display: inline-block;
-    margin-left: auto;
     margin-right: 60px;
     letter-spacing: -0.03em;
 }
 
-.nav_links a{
+nav a{
     margin-right: 60px;
-    font-family: 'Manrope', sans-serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
@@ -35,12 +34,19 @@ nav img {
     color:#121212;
 }
 
-.nav_links a:hover{
-    color: #5e5e5e;
-    text-decoration: underline;
+nav a:hover{
+    color: #121212;
+    opacity: 0.5;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.center_container{
+    width: 1400px;
+    margin: 0 auto;
 }
 
 .container{
+    max-width: 1400px;
     margin: 0 125px; 
 }
 
@@ -49,7 +55,6 @@ nav img {
     font-weight: 400;
     font-size: 60px;
     line-height: 60px;
-    font-family: 'Manrope', sans-serif;
     letter-spacing: -0.03em;
 }
 
@@ -57,7 +62,6 @@ nav img {
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
-    font-family: 'Manrope',sans-serif;
     margin-bottom: 32px;
 }
 
@@ -91,6 +95,7 @@ nav img {
 }
 
 .about_us{
+    max-width: 1400px;
     margin-bottom: 150px
 }
 
@@ -99,8 +104,6 @@ nav img {
     width: 1051px;
     margin-left: 3px;
     margin-bottom: 39px;
-
-    font-family: 'Manrope',sans-serif;
     font-weight: 400;
     font-size: 45px;
     line-height: 60px;
@@ -108,13 +111,12 @@ nav img {
 }
 
 .about_us button{
-    font-family: 'Manrope',sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 27px;
     color: white;
     letter-spacing: -0.03em;
-
+    font-family: 'Manrope',sans-serif;
     background-color: #AD1818;
     padding: 20px 40px;
     border: none;
@@ -123,14 +125,15 @@ nav img {
 
 .about_us button:hover{
     cursor: pointer;
+    
 }
 
 .projects_container{
+    max-width: 1400px;
     margin-bottom: 150px;
 }
 
 .projects_container h3{
-    font-family: 'Manrope',sans-serif;
     font-size: 30px;
     font-weight: 400;
     line-height: 41px;
@@ -146,7 +149,6 @@ nav img {
 }
 
 .projects_container a{
-    font-family: 'Manrope',sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 27px;
@@ -180,9 +182,16 @@ nav img {
     cursor: pointer;
 }
 
-.services_container{
+.full_wd_cont{
+    width: 100%;
     background-color: black;
-    padding: 0 125px 150px 125px;
+    margin: 0;
+}
+
+.services_container{
+    max-width: 1400px;
+
+    padding: 0 125px 142px 125px;
 }
 
 .services_container h2{
@@ -197,7 +206,7 @@ nav img {
 }
 
 .service img{
-    margin-bottom: 15px;
+    margin-bottom: 16px;
     max-width: 100%;
     height: auto;
 }
@@ -212,25 +221,31 @@ nav img {
 }
 
 .service{
-    margin-bottom: 56px;
+    margin-bottom: 60px;
 }
 
 .service:last-child{
     margin-bottom: 0;
 }
 
-.project_photo{
-    background-image: url(../resources/project_photo.jpg);
-    height: 717px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50%;
-    position: relative;
+.photo_container{
     margin-bottom: 150px;
 }
 
+.project_photo{
+    background-image: url(../resources/project_photo.jpg);
+    height: 717px;
+    width: 100%;
+    margin: 0;
+    max-width: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 65%;
+    position: relative;
+    
+}
+
 .project_photo h3{
-    font-family: 'Manrope',sans-serif;
     font-size: 30px;
     font-weight: 400;
     line-height: 41px;
@@ -246,11 +261,10 @@ nav img {
 }
 
 .contacts{
+    max-width: 1400px;
     margin-left: 120px;
     margin-bottom: 161px;
 }
-
-
 
 .contacts::before{
     content: '';
@@ -300,11 +314,12 @@ nav img {
 
 footer{
     background-color: black;
-
     width: 100%;
 }
 
 .footer_links{
+    width: 1400px;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     padding-top: 60px;
