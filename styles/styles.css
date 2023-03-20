@@ -68,11 +68,12 @@ nav a:hover{
     display: block;
     position: relative;
     margin-bottom: 150px;
-}
 
-.photo_pod_h1 img{
-    width: 100%;
-    height: auto;
+    background-image: url(../resources/Rectangle\ 1.jpg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    height: 500px;
 }
 
 .photo_pod_h1 p{
