@@ -400,8 +400,38 @@ footer{
         width: 100%;
     }
 
+    .photo_pod_h1 img{
+        height: 304px;
+    }
+
+    .container h1{
+        font-size: 30px;
+        line-height: 31px;
+    }
+
+    .container h2{
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .container h3{
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .about_us_text{
+        font-size: 22px;
+        line-height: 30px;
+        width: 346px;
+    }
+
+
     .photo_pod_h1{
         margin-bottom: 80px;
+    }
+
+    .photo_pod_h1 p{
+        width: 100%;
     }
 
     .about_us{
@@ -414,5 +444,19 @@ footer{
 
     .project:last-child{
         margin-bottom: 60px;
+    }
+
+    .projects_container button{
+        padding-top: 36px;
+        padding-bottom: 36px;
+    }
+
+    .about_us button{
+        padding: 14px 27px;
+    }
+
+    .projects_container a{
+        font-size: 16px;
+        line-height: 21px;
     }
 }
