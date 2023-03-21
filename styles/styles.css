@@ -2,10 +2,12 @@ html{
     scroll-behavior: smooth;
 }
 
-body{
-    max-width: 100%;
-    margin: 0 auto;
+body,button{
     font-family: 'Manrope', sans-serif;
+}
+
+h1,h2,h3,h4,p,a,button{
+    letter-spacing: -0.03em;
 }
 
 header {
@@ -54,7 +56,6 @@ nav a:hover{
     font-weight: 400;
     font-size: 60px;
     line-height: 60px;
-    letter-spacing: -0.03em;
 }
 
 .container h2{
@@ -83,8 +84,6 @@ nav a:hover{
     font-weight: 400;
     font-size: 20px;
     line-height: 27px;
-    font-family: 'Manrope', sans-serif;
-    letter-spacing: -0.03em;
 
     position: absolute;
     bottom: -3px;
@@ -102,7 +101,6 @@ nav a:hover{
     font-weight: 400;
     font-size: 45px;
     line-height: 60px;
-    letter-spacing: -0.03em;
 }
 
 .about_us button{
@@ -110,8 +108,6 @@ nav a:hover{
     font-size: 20px;
     line-height: 27px;
     color: white;
-    letter-spacing: -0.03em;
-    font-family: 'Manrope',sans-serif;
     background-color: #AD1818;
     padding: 20px 40px;
     border: none;
@@ -130,7 +126,6 @@ nav a:hover{
     font-size: 30px;
     font-weight: 400;
     line-height: 41px;
-    letter-spacing: -0.03em;
 
     margin-bottom: 15px;
 }
@@ -147,7 +142,6 @@ nav a:hover{
     line-height: 27px;
     color: #AD1818;
     text-decoration: none;
-    letter-spacing: -0.03em;
 }
 
 .project{
@@ -155,12 +149,10 @@ nav a:hover{
 }
 
 .projects_container button{
-    font-family: 'Manrope',sans-serif;
     font-size: 30px;
     font-weight: 400;
     line-height: 41px;
     color: #AD1818;
-    letter-spacing: -0.03em;
 
     padding: 56px 0;
     border: 1px solid #AD1818;
@@ -191,11 +183,9 @@ nav a:hover{
     padding-top: 149px;
     margin-bottom: 34px;
     color: white;
-    font-family: 'Manrope',sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: -0.03em;
 }
 
 .service img{
@@ -206,11 +196,9 @@ nav a:hover{
 
 .service h3{
     color: white;
-    font-family: 'Manrope',sans-serif;
     font-size: 30px;
     font-weight: 400;
     line-height: 41px;
-    letter-spacing: -0.03em;
 }
 
 .service{
@@ -242,7 +230,6 @@ nav a:hover{
     font-size: 30px;
     font-weight: 400;
     line-height: 41px;
-    letter-spacing: -0.03em;
 
     color: white;
     width: 443px;
@@ -274,9 +261,7 @@ nav a:hover{
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
-    font-family: 'Manrope',sans-serif;
     margin-bottom: 32px;
-    letter-spacing: -0.03em;
 }
 
 .contact_info{
@@ -285,11 +270,9 @@ nav a:hover{
 
 .contact_info a{
     text-decoration: none;
-    font-family: 'Manrope',sans-serif;
     font-weight: 400;
     font-size: 60px;
     line-height: 60px;
-    letter-spacing: -0.03em;
 }
 
 .phone{
@@ -321,13 +304,11 @@ footer{
 .footer_links a{
     color: white;
     text-decoration: none;
-    font-family: 'Manrope',sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 25px;
     margin-bottom: 89px;
     margin-right: 57px;
-    letter-spacing: -0.03em;
 }
 
 .footer_links a:hover{
@@ -346,14 +327,11 @@ footer{
 .podpis{
     color: gray;
     text-align: center;
-
-    font-family: 'Manrope',sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 27px;
 
     padding-bottom: 30px;
-    letter-spacing: -0.03em;
 }
 
 @media (max-width: 1199px) {
