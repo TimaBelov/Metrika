@@ -56,6 +56,7 @@ nav a:hover{
     font-weight: 400;
     font-size: 60px;
     line-height: 60px;
+    width: 956px;
 }
 
 h2{
@@ -379,6 +380,7 @@ footer{
 
     h1{
         font-size: 50px;
+        width: 100%;
     }
 
     h3{
@@ -431,6 +433,7 @@ footer{
     .container h1{
         font-size: 30px;
         line-height: 31px;
+        width: 100%;
     }
 
     .container h2{
@@ -446,7 +449,7 @@ footer{
     .about_us_text{
         font-size: 22px;
         line-height: 30px;
-        width: 346px;
+        width: 100%;
     }
 
     .photo_pod_h1 p{
@@ -508,6 +511,10 @@ footer{
         width: 100%;
 
         margin-bottom: 60px;
+    }
+
+    .services__title{
+        padding-top: 80px;
     }
 
     .service__price{
