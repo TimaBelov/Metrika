@@ -246,6 +246,33 @@ h2{
     cursor: pointer;
 }
 
+.feedback{
+    padding-top: 150px;
+}
+
+.row{
+    display: flex;
+    column-gap: 50px;
+}
+
+.col{
+    width: 525px
+}
+
+.feedback__subtitle{
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 61px;
+
+    padding-bottom: 14px;
+}
+
+.feedback__description{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+}
+
 .photo_container{
     margin-bottom: 150px;
 }
@@ -417,6 +444,24 @@ footer{
         font-size: 20px;
         line-height: 27px;
     }
+
+    .feedback{
+        padding-top: 117px;
+    }
+
+    .feedback__subtitle{
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 47px;
+    
+        padding-bottom: 25px;
+    }
+    
+    .feedback__description{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 27px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -439,11 +484,6 @@ footer{
     .container h2{
         font-size: 14px;
         line-height: 19px;
-    }
-
-    .container h3{
-        font-size: 18px;
-        line-height: 25px;
     }
 
     .about_us_text{
@@ -476,6 +516,11 @@ footer{
     .projects_container button{
         padding-top: 36px;
         padding-bottom: 36px;
+    }
+
+    .project__subtitle{
+        font-size: 18px;
+        line-height: 24px;
     }
 
     .about_us button{
@@ -530,5 +575,36 @@ footer{
         padding: 37px 0;
 
         margin-bottom: 80px;
+    }
+
+    .feedback{
+        padding-top: 80px;
+    }
+
+    .feedback__title{
+        margin-bottom: 22px;
+    }
+
+    .row{
+        flex-direction: column;
+        row-gap: 80px;
+    }
+
+    .col{
+        width: 100%;
+    }
+
+    .feedback__subtitle h3{
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 34px;
+    
+        padding-bottom: 10px;
+    }
+    
+    .feedback__description{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
     }
 }
