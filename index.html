@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/styles.css">
     <title>Метрика</title>
+    <link rel="icon" href="resources/icon.png" type="image/png">
 </head>
 <body>
     <!-- <header>
@@ -48,32 +49,38 @@
                     <h2 id="projects">ПРОЕКТЫ</h2>
                     <ul  class="projects_container">
                         <li class="project">
-                            <img src="resources/project_1.jpg" alt="Вид на диван у окна"
-                            class="project__image"
-                            srcset="resources/project_1_tel.png 767w,
-                            resources/project_1.jpg 800w"
-                            sizes="(max-width:767px) 767w,
-                            800w">
+                            <picture>
+                                <source
+                                    media="(max-width:500px)"
+                                    srcset="resources/project_1_tel.png"
+                                />
+                                <img src="resources/project_1.jpg" alt="Вид на диван у окна"
+                                class="project__image">
+                            </picture>
                             <h3 class="project__subtitle">ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</h3>
                             <a href="#">Подробнее →</a>
                         </li>
                         <li class="project">
-                            <img src="resources/project_2.jpg" alt="Вид на диван с телевизором"
-                            class="project__image"
-                            srcset="resources/project_2_tel.png 767w,
-                            resources/project_2.jpg 800w"
-                            sizes="(max-width:767px) 767w,
-                            800w">
+                            <picture>
+                                <source
+                                    media="(max-width:500px)"
+                                    srcset="resources/project_2_tel.png"
+                                />
+                                <img src="resources/project_2.jpg" alt="Вид на диван с телевизором"
+                                class="project__image">
+                            </picture>
                             <h3 class="project__subtitle">ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023</h3>
                             <a href="#">Подробнее →</a>
                         </li>
                         <li class="project">
-                            <img src="resources/project_3.jpg" alt="Вид на столовую с кухней"
-                            class="project__image"
-                            srcset="resources/project_3_tel.png 767w,
-                            resources/project_3.jpg 800w"
-                            sizes="(max-width:767px) 767w,
-                            800w">
+                            <picture>
+                                <source
+                                    media="(max-width:500px)"
+                                    srcset="resources/project_3_tel.png"
+                                />
+                                <img src="resources/project_3.jpg" alt="Вид на столовую с кухней"
+                                class="project__image">
+                            </picture>
                             <h3 class="project__subtitle">ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022</h3>
                             <a href="#">Подробнее →</a>
                         </li>

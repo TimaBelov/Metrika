@@ -145,8 +145,10 @@ h2{
 
 .project__image{
     margin-bottom: 15px;
+    height: 450px;
     width: 100%;
-    height: auto;
+    object-fit: contain;
+    object-position: 0%;
 }
 
 .project__subtitle{
@@ -452,6 +454,7 @@ footer{
         margin-bottom: 80px;
     }
 
+
     .project:last-child{
         margin-bottom: 102px;
     }
@@ -534,6 +537,11 @@ footer{
 
     .project{
         margin-bottom: 49px;
+    }
+
+    .project__image{
+        margin-bottom: 20px;
+        height: 250px;
     }
 
     .project:last-child{
