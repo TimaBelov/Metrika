@@ -123,18 +123,12 @@ h2{
     margin-bottom: 150px;
 }
 
-.projects_container h3{
+.projects_subtitle{
     font-size: 30px;
     font-weight: 400;
     line-height: 41px;
 
     margin-bottom: 15px;
-}
-
-.project img{
-    margin-bottom: 8px;
-    width: 100%;
-    height: auto;
 }
 
 .projects_container a{
@@ -147,6 +141,18 @@ h2{
 
 .project{
     margin-bottom: 93px;
+}
+
+.project__image{
+    margin-bottom: 15px;
+    width: 100%;
+    height: auto;
+}
+
+.project__subtitle{
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 41px;
 }
 
 .projects__button{
@@ -416,6 +422,13 @@ footer{
         width: 100%;
     }
 
+    .project__subtitle{
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 34px;
+        margin-bottom: 10px;
+    }
+
     h3{
         font-size: 25px;
         line-height: 34px;
@@ -560,8 +573,6 @@ footer{
     }
 
     .services_container{
-        gap: 0;
-
         margin-bottom: 60px;
     }
 
