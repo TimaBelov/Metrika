@@ -155,6 +155,7 @@ h2{
     font-size: 30px;
     font-weight: 400;
     line-height: 41px;
+    margin-bottom: 15px;
 }
 
 .projects__button{
@@ -419,9 +420,16 @@ footer{
         
     }
 
-    h1{
+    .container h1{
         font-size: 50px;
-        width: 100%;
+        width: calc(100% - 100px);
+    }
+    h2{
+        margin-bottom: 30px;
+    }
+
+    .projects_container{
+        margin-bottom: 103px;
     }
 
     .project__subtitle{
@@ -444,8 +452,12 @@ footer{
 
     .photo_pod_h1{
         margin-bottom: 120px;
+        height: 400px;
     }
 
+    .photo_pod_h1 p{
+        padding-bottom: 30px;
+    }
     .about_us{
         margin-bottom: 120px;
     }
@@ -454,9 +466,21 @@ footer{
         margin-bottom: 80px;
     }
 
+    .project:nth-child(3){
+        margin-bottom: 100px;
+    }
 
     .project:last-child{
-        margin-bottom: 102px;
+        margin-bottom: 100px;
+    }
+    
+    .services_container{
+        row-gap: 80px;
+    }
+
+    .service h3{
+        font-size: 25px;
+        line-height: 34px;
     }
 
     .service__price{
@@ -465,6 +489,14 @@ footer{
 
         font-size: 20px;
         line-height: 27px;
+    }
+
+    .services_container{ 
+        margin-bottom: 96px;
+    }
+
+    .services__button{
+        margin-bottom: 120px;
     }
 
     .feedback{
@@ -496,7 +528,7 @@ footer{
 
 @media (max-width: 767px) {
     .container{
-        padding: 0 17px;
+        padding: 0 12px;
         width: 100%;
     }
 
@@ -516,10 +548,16 @@ footer{
         line-height: 19px;
     }
 
+    h2{
+        margin-bottom: 20px;
+    }
+
     .about_us_text{
         font-size: 22px;
         line-height: 30px;
         width: 100%;
+        margin-left: 0;
+        margin-bottom:30px ;
     }
 
     .photo_pod_h1 p{
@@ -535,8 +573,18 @@ footer{
         margin-bottom: 80px;
     }
 
+    .about_us button{
+        font-size: 16px;
+        line-height: 21px;
+        padding: 14px 27px;
+    }
+
     .project{
         margin-bottom: 49px;
+    }
+
+    .projects_container{
+        margin-bottom: 144px;
     }
 
     .project__image{
@@ -544,7 +592,7 @@ footer{
         height: 250px;
     }
 
-    .project:last-child{
+    .project:nth-child(3){
         margin-bottom: 60px;
     }
 
@@ -558,9 +606,6 @@ footer{
         line-height: 24px;
     }
 
-    .about_us button{
-        padding: 14px 27px;
-    }
 
     .projects_container a{
         font-size: 16px;
@@ -582,16 +627,21 @@ footer{
 
     .services_container{
         margin-bottom: 60px;
+
+        row-gap: 60px;
     }
 
     .service{
         width: 100%;
-
-        margin-bottom: 60px;
     }
 
     .services__title{
         padding-top: 80px;
+    }
+
+    .service h3{
+        font-size: 18px;
+        line-height: 25px;
     }
 
     .service__price{
@@ -600,6 +650,7 @@ footer{
 
         font-size: 14px;
         line-height: 19px;
+        padding: 6px 26px;
     }
 
     .services__button{
