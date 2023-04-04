@@ -380,51 +380,59 @@ h2{
 
 
 .contacts{
-    max-width: 1400px;
-    margin-left: 120px;
-    margin-bottom: 161px;
+    padding: 150px 0;
 }
 
-.contacts::before{
+
+.contacts__title{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 25px;
+}
+
+.contact__info{
+    margin-left: 4px;
+    display: flex;
+}
+
+.contact__info__link{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 60px;
+    color:black;
+}
+
+.contact__info__link:hover{
+    color: gray;
+    border-bottom: 2px solid gray;
+}
+
+.phone{
+    margin-right: 104px;
+}
+
+.phone::before{
     content: '';
     display: block;
     background-image: url(../resources/phone_icon.png);
     background-repeat: no-repeat;
     background-size: contain;
-    width: 24px;
-    height: 24px;
-    margin-bottom: 12px;
+    width: 13px;
+    height: 22px;
+    margin-bottom: 27px;
 }
 
-.contacts h2{
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 24px;
-    margin-bottom: 32px;
-}
-
-.contact_info{
-    margin-left: 4px;
-}
-
-.contact_info a{
-    text-decoration: none;
-    font-weight: 400;
-    font-size: 60px;
-    line-height: 60px;
-}
-
-.phone{
-    margin-bottom: 30px;
-}
-
-.phone a{
-    color:black;
-}
-
-.mail a{
-    color: gray;
-    border-bottom: 2px solid gray;
+.mail::before{
+    content: '';
+    display: block;
+    background-image: url(../resources/mail_icon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 16px;
+    margin-bottom: 19px;
 }
 
 footer{
@@ -610,6 +618,18 @@ footer{
         width: 375px;
         font-size: 25px;
         line-height: 34px;
+    }
+
+    .contacts{
+        padding: 120px 0 80px 0;
+    }
+
+    .contact__info__link{
+        font-size: 45px;
+    }
+    
+    .phone{
+        margin-right: 114px;
     }
 }
 
@@ -808,5 +828,39 @@ footer{
     .gallery__controls button{
         margin-right: 0;
         
+    }
+
+    .contacts{
+        padding: 80px 0;
+    }
+
+    .contacts__title{
+        font-size: 14px;
+        line-height: 19px;
+        margin-bottom: 20px;
+    }
+
+    .contact__info{
+        flex-direction: column;
+    }
+
+    .contact__info__link{
+        font-size: 35px;
+        line-height: 45px;
+    }
+    
+    .phone{
+        margin-right: 0;
+        margin-bottom: 23px;
+    }
+
+    .phone::before{
+        margin-bottom: 20px;
+    }
+
+    .mail::before{
+        width: 15px;
+        height: 12px;
+        margin-bottom: 23px;
     }
 }
