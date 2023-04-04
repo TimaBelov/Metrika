@@ -801,8 +801,12 @@ footer{
     }
 
     .gallery__controls{
-        width: 100%;
+        width: calc(100% - 24px);
         display: flex;
         justify-content: space-between;
+    }
+    .gallery__controls button{
+        margin-right: 0;
+        
     }
 }
