@@ -1,0 +1,142 @@
+.services {
+  width: 100%;
+  background-color: #121212;
+  margin: 0;
+}
+
+.services_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 60px;
+
+  margin-bottom: 160px;
+}
+
+.services__title {
+  padding-top: 149px;
+  margin-bottom: 34px;
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.service img {
+  margin-bottom: 16px;
+  max-width: 100%;
+  height: auto;
+}
+
+.service__price {
+  background-color: #ad1818;
+  border-radius: 5px;
+  padding: 5px 20px;
+
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 30px;
+  color: white;
+  user-select: none;
+
+  position: absolute;
+  top: 36px;
+  left: 30px;
+}
+
+.service h3 {
+  color: white;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 41px;
+}
+
+.service {
+  width: calc(50% - 5px);
+  position: relative;
+}
+
+.service:last-child {
+  margin-bottom: 0;
+}
+
+.services__button {
+  width: 100%;
+  background-color: #ad1818;
+  border-radius: 5px;
+  border: none;
+  padding: 56px 0;
+  margin-bottom: 150px;
+
+  color: white;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 41px;
+
+  cursor: pointer;
+}
+
+@media (max-width: 1199px) {
+  .services_container {
+    row-gap: 80px;
+  }
+
+  .service h3 {
+    font-size: 25px;
+    line-height: 34px;
+  }
+
+  .service__price {
+    top: 30px;
+    left: 30px;
+
+    font-size: 20px;
+    line-height: 27px;
+  }
+
+  .services_container {
+    margin-bottom: 96px;
+  }
+
+  .services__button {
+    margin-bottom: 120px;
+  }
+}
+
+@media (max-width: 767px) {
+  .services_container {
+    margin-bottom: 60px;
+
+    row-gap: 60px;
+  }
+
+  .service {
+    width: 100%;
+  }
+
+  .services__title {
+    padding-top: 80px;
+  }
+
+  .service h3 {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .service__price {
+    top: 23px;
+    left: 23px;
+
+    font-size: 14px;
+    line-height: 19px;
+    padding: 6px 26px;
+  }
+
+  .services__button {
+    font-size: 22px;
+    line-height: 31px;
+    padding: 37px 0;
+
+    margin-bottom: 80px;
+  }
+}

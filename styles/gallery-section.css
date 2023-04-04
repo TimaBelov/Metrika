@@ -1,0 +1,152 @@
+.gallery {
+  position: relative;
+}
+
+.gallery__title-wrapper {
+  position: absolute;
+  width: 100%;
+  top: 60px;
+  z-index: 100;
+}
+
+.gallery__title {
+  font-size: 22px;
+  line-height: 30px;
+  color: white;
+}
+
+.gallery__slides {
+  position: relative;
+  height: 717px;
+}
+
+.gallery__slide {
+  transition: opacity 1.5s;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+}
+
+.gallery__slide_active {
+  opacity: 1;
+}
+
+.box {
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.box_forest {
+  background-image: url(../resources/slide_forest_landscape.png);
+}
+
+.box_lighthouse {
+  background-image: url(../resources/slide_lighthouse.png);
+}
+
+.box_lighthouse .box__description {
+  bottom: 101px;
+}
+
+.box_studio {
+  background-image: url(../resources/slide_studio_kitchen.png);
+}
+
+.box_scandi {
+  background-image: url(../resources/slide_scandinavian_kitchen.png);
+}
+
+.box__description {
+  position: absolute;
+  width: 427px;
+  bottom: 60px;
+  font-size: 30px;
+  line-height: 41px;
+  color: white;
+}
+
+.gallery__controls {
+  position: absolute;
+  bottom: 165px;
+}
+
+.gallery__controls button {
+  background-color: transparent;
+  border: none;
+  margin-right: 35px;
+}
+
+.gallery__controls button:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+@media (max-width: 1199px) {
+  .gallery .container {
+    padding: 0;
+    margin-left: 5%;
+  }
+
+  .gallery__title-wrapper {
+    width: calc(95% - 5px);
+    top: 80px;
+  }
+
+  .gallery__title {
+    font-size: 20px;
+    line-height: 27px;
+  }
+
+  .gallery__slides {
+    height: 536px;
+  }
+
+  .box__description {
+    bottom: 80px;
+    width: 375px;
+    font-size: 25px;
+    line-height: 34px;
+  }
+}
+
+@media (max-width: 767px) {
+  .gallery .container {
+    margin-left: 0;
+    padding: 0 12px;
+  }
+
+  .gallery__title-wrapper {
+    top: 60px;
+  }
+
+  .gallery__title {
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .gallery__slides {
+    height: 408px;
+  }
+
+  .box__description {
+    width: 285px;
+    bottom: 60px;
+    font-size: 19px;
+    line-height: 25px;
+  }
+
+  .gallery__controls {
+    width: calc(100% - 24px);
+    display: flex;
+    justify-content: space-between;
+  }
+  .gallery__controls button {
+    margin-right: 0;
+  }
+}

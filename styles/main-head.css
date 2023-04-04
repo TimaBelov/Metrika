@@ -1,0 +1,51 @@
+.photo_pod_h1 {
+  display: block;
+  position: relative;
+  margin-bottom: 150px;
+
+  background-image: url(../resources/header_photo.jpg);
+  background-repeat: no-repeat;
+  background-position: 30%;
+  background-size: cover;
+  height: 500px;
+}
+
+.photo_pod_h1 p {
+  padding-bottom: 40px;
+  padding-left: 40px;
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+
+  position: absolute;
+  bottom: -3px;
+  width: 470px;
+}
+
+@media (max-width: 1199px) {
+  .photo_pod_h1 {
+    margin-bottom: 120px;
+    height: 400px;
+  }
+
+  .photo_pod_h1 p {
+    padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .photo_pod_h1 {
+    height: 304px;
+    margin-bottom: 80px;
+  }
+
+  .photo_pod_h1 p {
+    width: 100%;
+    padding-left: 15px;
+    padding-bottom: 15px;
+
+    font-size: 16px;
+    line-height: 21px;
+  }
+}

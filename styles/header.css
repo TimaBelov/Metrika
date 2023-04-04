@@ -1,0 +1,31 @@
+header {
+  max-width: 1400px;
+  margin: 32px auto 70px auto;
+}
+
+header img {
+  margin-left: 124px;
+}
+
+nav {
+  float: right;
+  display: inline-block;
+  margin-right: 60px;
+  letter-spacing: -0.03em;
+}
+
+nav a {
+  margin-right: 60px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+
+  text-decoration: none;
+  color: #121212;
+}
+
+nav a:hover {
+  color: #121212;
+  opacity: 0.5;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}

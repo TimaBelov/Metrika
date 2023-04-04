@@ -1,846 +1,94 @@
-html{
-    scroll-behavior: smooth;
-}
-
-body,button{
-    font-family: 'Manrope', sans-serif;
-}
-
-h1,h2,h3,h4,p,a,button{
-    letter-spacing: -0.03em;
-}
-
-header {
-    max-width: 1400px;
-    margin: 32px auto 70px auto;
-}
-
-header img {
-    margin-left: 124px;
-}
-
-nav {
-    float: right;
-    display: inline-block;
-    margin-right: 60px;
-    letter-spacing: -0.03em;
-}
-
-nav a{
-    margin-right: 60px;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 24px;
-
-    text-decoration: none;
-    color:#121212;
-}
-
-nav a:hover{
-    color: #121212;
-    opacity: 0.5;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
-}
-
-.container{
-    width: 1150px;
-    margin: 0 auto; 
-}
-
-.main-inner{
-    width: 100%;
-}
-
-.container h1{
-    margin-bottom: 30px;
-    font-weight: 400;
-    font-size: 60px;
-    line-height: 60px;
-    width: 956px;
-}
-
-h2{
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 24px;
-    margin-bottom: 32px;
-}
-
-.photo_pod_h1 {
-    display: block;
-    position: relative;
-    margin-bottom: 150px;
-
-    background-image: url(../resources/header_photo.jpg);
-    background-repeat: no-repeat;
-    background-position: 30%;
-    background-size: cover;
-    height: 500px;
-}
-
-.photo_pod_h1 p{
-    padding-bottom: 40px;
-    padding-left: 40px;
-    color: white;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 27px;
-
-    position: absolute;
-    bottom: -3px;
-    width: 470px;
-}
-
-.about_us{
-    margin-bottom: 150px
-}
-
-.about_us_text{
-    width: 1051px;
-    margin-left: 3px;
-    margin-bottom: 39px;
-    font-weight: 400;
-    font-size: 45px;
-    line-height: 60px;
-}
-
-.about_us button{
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 27px;
-    color: white;
-    background-color: #AD1818;
-    padding: 20px 40px;
-    border: none;
-    border-radius: 5px;
-}
-
-.about_us button:hover{
-    cursor: pointer;
-}
-
-.projects_container a{
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 27px;
-    color: #AD1818;
-    text-decoration: none;
-}
-
-.project{
-    margin-bottom: 93px;
-}
-
-.project__image{
-    margin-bottom: 15px;
-    height: 450px;
-    width: 100%;
-    object-fit: contain;
-    object-position: 0%;
-}
-
-.project__subtitle{
-    font-size: 30px;
-    font-weight: 400;
-    line-height: 41px;
-    margin-bottom: 15px;
-}
-
-.projects__button{
-    font-size: 30px;
-    font-weight: 400;
-    line-height: 41px;
-    color: #AD1818;
-
-    padding: 56px 0;
-    border: 1px solid #AD1818;
-    border-radius: 5px;
-    background-color: white;
-    width: 100%;
-
-    margin-bottom: 150px;
-}
-
-.projects__button:hover{
-    background-color: #AD1818;
-    color: white;
-    cursor: pointer;
-}
-
-.services{
-    width: 100%;
-    background-color: #121212;
-    margin: 0;
-}
-
-.services_container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    row-gap: 60px;
-
-    margin-bottom: 160px;
-}
-
-.services__title{
-    padding-top: 149px;
-    margin-bottom: 34px;
-    color: white;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 24px;
-}
-
-.service img{
-    margin-bottom: 16px;
-    max-width: 100%;
-    height: auto;
-}
-
-.service__price{
-    background-color: #AD1818;
-    border-radius: 5px;
-    padding: 5px 20px;
-
-    font-size: 22px;
-    font-weight: 400;
-    line-height: 30px;
-    color: white;
-    user-select: none;
-
-    position: absolute;
-    top: 36px;
-    left: 30px;
-}
-
-.service h3{
-    color: white;
-    font-size: 30px;
-    font-weight: 400;
-    line-height: 41px;
-}
-
-.service{
-    width: calc(50% - 5px);
-    position: relative;
-}
-
-.service:last-child{
-    margin-bottom: 0;
-}
-
-.services__button{
-    width: 100%;
-    background-color: #AD1818;
-    border-radius: 5px;
-    border: none;
-    padding: 56px 0;
-    margin-bottom: 150px;
-
-    color: white;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 41px;
-    
-    cursor: pointer;
-}
-
-.feedback{
-    padding-top: 150px;
-    margin-bottom: 157px;
-}
-
-.feedback__list{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    row-gap: 80px;
-}
-
-.feedback__item{
-    width: 525px;
-}
-
-.feedback__item:last-child:nth-child(2n+1){
-    width: 861px;
-}
-
-.feedback__subtitle{
-    font-weight: 400;
-    font-size: 45px;
-    line-height: 61px;
-
-    padding-bottom: 14px;
-}
-
-.feedback__description{
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 30px;
-}
-
-.gallery{
-    position: relative;
-}
-
-.gallery__title-wrapper{
-    position: absolute;
-    width: 100%;
-    top: 60px;
-    z-index: 100;
-}
-
-.gallery__title{
-    font-size: 22px;
-    line-height: 30px;
-    color: white;
-}
-
-.gallery__slides{
-    position: relative;
-    height: 717px;
-}
-
-.gallery__slide{
-    transition: opacity 1.5s;
-
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-}
-
-.gallery__slide_active{
-    opacity: 1;
-}
-
-.box{
-    height: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 50%;
-}
-
-.box_forest{
-    background-image: url(../resources/slide_forest_landscape.png);
-}
-
-.box_lighthouse{
-    background-image: url(../resources/slide_lighthouse.png);
-}
-
-.box_lighthouse .box__description{
-    bottom: 101px;
-}
-
-.box_studio{
-    background-image: url(../resources/slide_studio_kitchen.png);
-}
-
-.box_scandi{
-    background-image: url(../resources/slide_scandinavian_kitchen.png);
-}
-
-.box__description{
-    position: absolute;
-    width: 427px;
-    bottom: 60px;
-    font-size: 30px;
-    line-height: 41px;
-    color: white;
-}
-
-.gallery__controls{
-    position: absolute;
-    bottom: 165px;
-}
-
-.gallery__controls button{
-    background-color: transparent;
-    border: none;
-    margin-right: 35px;
-}
-
-.gallery__controls button:hover{
-    cursor: pointer;
-    opacity: 0.5;
-}
-
-
-.contacts{
-    padding: 150px 0;
-}
-
-
-.contacts__title{
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 24px;
-    margin-bottom: 25px;
-}
-
-.contact__info{
-    margin-left: 4px;
-    display: flex;
-}
-
-.contact__info__link{
-    text-decoration: none;
-    font-weight: 400;
-    font-size: 60px;
-    line-height: 60px;
-    color:black;
-}
-
-.contact__info__link:hover{
-    color: gray;
-    border-bottom: 2px solid gray;
-}
-
-.phone{
-    margin-right: 104px;
-}
-
-.phone::before{
-    content: '';
-    display: block;
-    background-image: url(../resources/phone_icon.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 13px;
-    height: 22px;
-    margin-bottom: 27px;
-}
-
-.mail::before{
-    content: '';
-    display: block;
-    background-image: url(../resources/mail_icon.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 20px;
-    height: 16px;
-    margin-bottom: 19px;
-}
+@import url(header.css);
+@import url(main-head.css);
+@import url(abous_us.css);
+@import url(projects.css);
+@import url(services.css);
+@import url(feedback.css);
+@import url(gallery-section.css);
+@import url(contacts.css);
+@import url(footer.css);
 
-footer{
-    background-color: black;
-    width: 100%;
+html {
+  scroll-behavior: smooth;
 }
 
-.footer_links{
-    width: 1400px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    padding-top: 60px;
+body,
+button {
+  font-family: "Manrope", sans-serif;
 }
 
-.footer_links a{
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 25px;
-    margin-bottom: 89px;
-    margin-right: 57px;
+h1,
+h2,
+h3,
+h4,
+p,
+a,
+button {
+  letter-spacing: -0.03em;
 }
 
-.footer_links a:hover{
-    color: gray;
+.container {
+  width: 1150px;
+  margin: 0 auto;
 }
 
-.footer_links a:first-child{
-    margin-right: 53px;
+.main-inner {
+  width: 100%;
 }
 
-.footer_links a:last-child{
-    margin-right: 0;
+.container h1 {
+  margin-bottom: 30px;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 60px;
+  width: 956px;
 }
-
-
-.podpis{
-    color: gray;
-    text-align: center;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 27px;
 
-    padding-bottom: 30px;
+h2 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 32px;
 }
 
 @media (max-width: 1199px) {
-    .container{
-        padding: 0 17px;
-        width: 100%;
-        
-    }
+  .container {
+    padding: 0 17px;
+    width: 100%;
+  }
 
-    .container h1{
-        font-size: 50px;
-        width: calc(100% - 100px);
-    }
-    h2{
-        margin-bottom: 30px;
-    }
+  .container h1 {
+    font-size: 50px;
+    width: calc(100% - 100px);
+  }
+  h2 {
+    margin-bottom: 30px;
+  }
 
-    .project__subtitle{
-        font-size: 25px;
-        font-weight: 400;
-        line-height: 34px;
-        margin-bottom: 10px;
-    }
-
-    h3{
-        font-size: 25px;
-        line-height: 34px;
-    }
-
-    .about_us_text{
-        font-size: 35px;
-        line-height: 47px;
-        width: 690px;
-    }
-
-    .photo_pod_h1{
-        margin-bottom: 120px;
-        height: 400px;
-    }
-
-    .photo_pod_h1 p{
-        padding-bottom: 30px;
-    }
-    .about_us{
-        margin-bottom: 120px;
-    }
-
-    .project{
-        margin-bottom: 80px;
-    }
-
-    .project:last-child{
-        margin-bottom: 102px;
-    }
-    
-    .services_container{
-        row-gap: 80px;
-    }
-
-    .service h3{
-        font-size: 25px;
-        line-height: 34px;
-    }
-
-    .service__price{
-        top: 30px;
-        left: 30px;
-
-        font-size: 20px;
-        line-height: 27px;
-    }
-
-    .services_container{ 
-        margin-bottom: 96px;
-    }
-
-    .services__button{
-        margin-bottom: 120px;
-    }
-
-    .feedback{
-        padding-top: 117px;
-        margin-bottom: 120px;
-    }
-
-    .feedback__item{
-        width: calc(50% - 5px);
-    }
-
-    .feedback__item:last-child:nth-child(2n+1){
-        width: 694px;
-    }
-
-    .feedback__subtitle{
-        font-weight: 400;
-        font-size: 35px;
-        line-height: 47px;
-    
-        padding-bottom: 25px;
-    }
-    
-    .feedback__description{
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 27px;
-    }
-
-    .gallery .container{
-        padding: 0;
-        margin-left: 5%;
-    }
-
-    .gallery__title-wrapper{
-        width: calc(95% - 5px);
-        top:80px
-    }
-
-    .gallery__title{
-        font-size: 20px;
-        line-height: 27px;
-    }
-
-    .gallery__slides{
-        height: 536px;
-    }
-
-    .box__description{
-        bottom: 80px;
-        width: 375px;
-        font-size: 25px;
-        line-height: 34px;
-    }
-
-    .contacts{
-        padding: 120px 0 80px 0;
-    }
-
-    .contact__info__link{
-        font-size: 45px;
-    }
-    
-    .phone{
-        margin-right: 114px;
-    }
+  h3 {
+    font-size: 25px;
+    line-height: 34px;
+  }
 }
 
 @media (max-width: 767px) {
-    .container{
-        padding: 0 12px;
-        width: 100%;
-    }
+  .container {
+    padding: 0 12px;
+    width: 100%;
+  }
 
-    .photo_pod_h1{
-        height: 304px;
-        margin-bottom: 80px;
-    }
+  .container h1 {
+    font-size: 30px;
+    line-height: 31px;
+    width: 100%;
+  }
 
-    .container h1{
-        font-size: 30px;
-        line-height: 31px;
-        width: 100%;
-    }
+  .container h2 {
+    font-size: 14px;
+    line-height: 19px;
+  }
 
-    .container h2{
-        font-size: 14px;
-        line-height: 19px;
-    }
-
-    h2{
-        margin-bottom: 20px;
-    }
-
-    .about_us_text{
-        font-size: 22px;
-        line-height: 30px;
-        width: 100%;
-        margin-left: 0;
-        margin-bottom:30px ;
-    }
-
-    .photo_pod_h1 p{
-        width: 100%;
-        padding-left: 15px;
-        padding-bottom: 15px;
-
-        font-size: 16px;
-        line-height: 21px;
-    }
-
-    .about_us{
-        margin-bottom: 80px;
-    }
-
-    .about_us button{
-        font-size: 16px;
-        line-height: 21px;
-        padding: 14px 27px;
-    }
-
-    .project{
-        margin-bottom: 49px;
-    }
-
-    .project__image{
-        margin-bottom: 20px;
-        height: 250px;
-    }
-
-    .project:last-child{
-        margin-bottom: 60px;
-    }
-
-    .projects__button{
-        padding-top: 36px;
-        padding-bottom: 36px;
-
-        margin-bottom: 144px;
-    }
-
-    .project__subtitle{
-        font-size: 18px;
-        line-height: 24px;
-    }
-
-
-    .projects_container a{
-        font-size: 16px;
-        line-height: 21px;
-    }
-
-    .projects__button{
-        font-size: 22px;
-        font-weight: 400;
-        line-height: 30px;
-        color: #AD1818;
-    
-        padding: 36px 0;
-        border: 1px solid #AD1818;
-        border-radius: 5px;
-        background-color: white;
-        width: 100%;
-    }
-
-    .services_container{
-        margin-bottom: 60px;
-
-        row-gap: 60px;
-    }
-
-    .service{
-        width: 100%;
-    }
-
-    .services__title{
-        padding-top: 80px;
-    }
-
-    .service h3{
-        font-size: 18px;
-        line-height: 25px;
-    }
-
-    .service__price{
-        top: 23px;
-        left: 23px;
-
-        font-size: 14px;
-        line-height: 19px;
-        padding: 6px 26px;
-    }
-
-    .services__button{
-        font-size: 22px;
-        line-height: 31px;
-        padding: 37px 0;
-
-        margin-bottom: 80px;
-    }
-
-    .feedback{
-        padding-top: 80px;
-        margin-bottom: 80px;
-    }
-
-    .feedback__item{
-        width: 100%;
-    }
-
-    .feedback__title{
-        margin-bottom: 22px;
-    }
-
-    .feedback__subtitle{
-        font-weight: 400;
-        font-size: 25px;
-        line-height: 34px;
-    
-        padding-bottom: 10px;
-    }
-    
-    .feedback__description{
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 21px;
-    }
-
-    .gallery .container{
-        margin-left: 0;
-       padding: 0 12px;
-    }
-
-    .gallery__title-wrapper{
-        top:60px
-    }
-
-    .gallery__title{
-        font-size: 14px;
-        line-height: 19px;
-    }
-
-    .gallery__slides{
-        height: 408px;
-    }
-
-    .box__description{
-        width: 285px;
-        bottom: 60px;
-        font-size: 19px;
-        line-height: 25px;
-    }
-
-    .gallery__controls{
-        width: calc(100% - 24px);
-        display: flex;
-        justify-content: space-between;
-    }
-    .gallery__controls button{
-        margin-right: 0;
-        
-    }
-
-    .contacts{
-        padding: 80px 0;
-    }
-
-    .contacts__title{
-        font-size: 14px;
-        line-height: 19px;
-        margin-bottom: 20px;
-    }
-
-    .contact__info{
-        flex-direction: column;
-    }
-
-    .contact__info__link{
-        font-size: 35px;
-        line-height: 45px;
-    }
-    
-    .phone{
-        margin-right: 0;
-        margin-bottom: 23px;
-    }
-
-    .phone::before{
-        margin-bottom: 20px;
-    }
-
-    .mail::before{
-        width: 15px;
-        height: 12px;
-        margin-bottom: 23px;
-    }
+  h2 {
+    margin-bottom: 20px;
+  }
 }
