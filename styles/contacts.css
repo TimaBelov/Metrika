@@ -10,7 +10,6 @@
 }
 
 .contact__info {
-  margin-left: 4px;
   display: flex;
 }
 
@@ -28,7 +27,7 @@
 }
 
 .phone {
-  margin-right: 104px;
+  margin-right: 118px;
 }
 
 .phone::before {
@@ -93,6 +92,8 @@
   }
 
   .phone::before {
+    width: 9px;
+    height: 16px;
     margin-bottom: 20px;
   }
 

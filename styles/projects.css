@@ -7,7 +7,7 @@
 }
 
 .project {
-  margin-bottom: 93px;
+  margin-bottom: 85px;
 }
 
 .project__image {
@@ -60,6 +60,10 @@
     font-weight: 400;
     line-height: 34px;
     margin-bottom: 10px;
+  }
+
+  .projects__button{
+    margin-bottom: 103px;
   }
 }
 

@@ -73,13 +73,13 @@
 
 .gallery__controls {
   position: absolute;
-  bottom: 165px;
+  bottom: 160px;
 }
 
 .gallery__controls button {
   background-color: transparent;
   border: none;
-  margin-right: 35px;
+  margin-right: 13px;
 }
 
 .gallery__controls button:hover {
