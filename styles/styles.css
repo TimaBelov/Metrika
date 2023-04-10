@@ -7,9 +7,14 @@
 @import url(gallery-section.css);
 @import url(contacts.css);
 @import url(footer.css);
+@import url(popup.css);
 
 html {
   scroll-behavior: smooth;
+}
+
+.body__fixed {
+  overflow: hidden;
 }
 
 body,

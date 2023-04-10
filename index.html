@@ -154,9 +154,38 @@
                 <h3>Комплектация</h3>
               </li>
             </ul>
-            <button class="services__button">Заказать услугу</button>
+            <button class="services__button js-btn">Заказать услугу</button>
           </div>
         </section>
+        <div class="popup js-popup">
+          <div class="popup__content js-popup__content">
+            <div class="popup__close-btn js-popup__close-btn"></div>
+            <p class="popup__title">Заказать услугу</p>
+            <p class="popup__description">
+              Заполните форму, мы свяжемся с вами в течение суток
+            </p>
+            <ul>
+              <li>
+                <input class="popup__input" type="text" placeholder="Имя" />
+              </li>
+              <li>
+                <input
+                  class="popup__input"
+                  type="text"
+                  placeholder="Электронная почта"
+                />
+              </li>
+              <li>
+                <input
+                  class="popup__input"
+                  type="text"
+                  placeholder="Номер телефона"
+                />
+              </li>
+            </ul>
+            <button class="popup__send-btn js-popup__send-btn">Отправить</button>
+          </div>
+        </div>
         <section class="feedback">
           <div class="container">
             <h2 class="feedback__title">ОТЗЫВЫ</h2>
@@ -298,5 +327,6 @@
       </div>
     </footer>
     <script src="gallery.js"></script>
+    <script src="popup.js"></script>
   </body>
 </html>
