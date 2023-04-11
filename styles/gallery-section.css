@@ -113,6 +113,25 @@
     font-size: 25px;
     line-height: 34px;
   }
+  .box_forest {
+    background-image: url(../resources/slide_forest_landscape.webp);
+  }
+  
+  .box_lighthouse {
+    background-image: url(../resources/slide_lighthouse.webp);
+  }
+  
+  .box_lighthouse .box__description {
+    bottom: 101px;
+  }
+  
+  .box_studio {
+    background-image: url(../resources/slide_studio_kitchen.webp);
+  }
+  
+  .box_scandi {
+    background-image: url(../resources/slide_scandinavian_kitchen.webp);
+  }
 }
 
 @media (max-width: 767px) {

@@ -24,7 +24,7 @@
   padding: 94px 50px 86px 50px;
   border-radius: 10px;
   max-height: 100%;
-  /* overflow-y: scroll; */
+  overflow-y: auto;
   background-color: white;
   text-align: center;
 }
