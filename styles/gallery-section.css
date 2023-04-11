@@ -43,11 +43,11 @@
 }
 
 .box_forest {
-  background-image: url(../resources/slide_forest_landscape.png);
+  background-image: url(../resources/slide_forest_landscape.webp);
 }
 
 .box_lighthouse {
-  background-image: url(../resources/slide_lighthouse.png);
+  background-image: url(../resources/slide_lighthouse.webp);
 }
 
 .box_lighthouse .box__description {
@@ -55,11 +55,11 @@
 }
 
 .box_studio {
-  background-image: url(../resources/slide_studio_kitchen.png);
+  background-image: url(../resources/slide_studio_kitchen.webp);
 }
 
 .box_scandi {
-  background-image: url(../resources/slide_scandinavian_kitchen.png);
+  background-image: url(../resources/slide_scandinavian_kitchen.webp);
 }
 
 .box__description {
@@ -112,25 +112,6 @@
     width: 375px;
     font-size: 25px;
     line-height: 34px;
-  }
-  .box_forest {
-    background-image: url(../resources/slide_forest_landscape.webp);
-  }
-  
-  .box_lighthouse {
-    background-image: url(../resources/slide_lighthouse.webp);
-  }
-  
-  .box_lighthouse .box__description {
-    bottom: 101px;
-  }
-  
-  .box_studio {
-    background-image: url(../resources/slide_studio_kitchen.webp);
-  }
-  
-  .box_scandi {
-    background-image: url(../resources/slide_scandinavian_kitchen.webp);
   }
 }
 
