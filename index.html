@@ -16,15 +16,55 @@
     <link rel="icon" href="resources/icon.png" type="image/png" />
   </head>
   <body>
-    <!-- <header>
-        <img src="resources/Метрика.png" alt="Метрика">
-        <nav>
-            <a href="#about_us">О НАС</a>
-            <a href="#projects">ПРОЕКТЫ</a>
-            <a href="#services">УСЛУГИ</a>
-            <a href="#contacts">КОНТАКТЫ</a>
+    <header class="header">
+      <div class="container">
+        <div class="header-inner">
+          <img src="resources/Метрика.png" alt="Метрика" class="header__img" />
+          <nav class="header__nav">
+            <a href="#about_us" class="header__link">О НАС</a>
+            <a href="#projects" class="header__link">ПРОЕКТЫ</a>
+            <a href="#services" class="header__link">УСЛУГИ</a>
+            <a href="#contacts" class="header__link">КОНТАКТЫ</a>
+          </nav>
+          <div class="burger-btn js-burger-btn">
+            <div class="burger-btn__span__wrapper">
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="burger js-burger">
+      <div class="burger__content js-burger__content">
+        <img
+          src="resources/metrica_burger.png"
+          alt="Метрика"
+          class="burger__img"
+        />
+        <nav class="burger__nav js-burger-link">
+          <a href="#about_us" class="burger__link">О НАС</a>
+          <a href="#projects" class="burger__link">ПРОЕКТЫ</a>
+          <a href="#services" class="burger__link">УСЛУГИ</a>
+          <a href="#contacts" class="burger__link">КОНТАКТЫ</a>
         </nav>
-    </header> -->
+        <div class="burger__contacts">
+          <p class="burger__contacts__title">для связи:</p>
+          <ul>
+            <li>
+              <a href="tel:+79358954535" class="burger__contacts__info__link"
+                >+7 935 895-45-35</a
+              >
+            </li>
+            <li>
+              <a href="mailto:hello@mail.com" class="burger__contacts__info__link"
+                >hello@mail.com</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
     <main>
       <div class="main-inner">
         <div class="container">
@@ -335,5 +375,6 @@
     </footer>
     <script src="gallery.js"></script>
     <script src="popup.js"></script>
+    <script src="burger.js"></script>
   </body>
 </html>
