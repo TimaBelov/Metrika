@@ -78,6 +78,7 @@
 @media (max-width: 1199px) {
   .services_container {
     row-gap: 80px;
+    margin-bottom: 80px;
   }
 
   .service h3 {
@@ -93,10 +94,6 @@
     line-height: 27px;
 
     padding: 6px 26px;
-  }
-
-  .services_container {
-    margin-bottom: 96px;
   }
 
   .services__button {
@@ -118,6 +115,7 @@
 
   .services__title {
     padding-top: 80px;
+    margin-bottom: 20px;
   }
 
   .service h3 {
