@@ -10,7 +10,12 @@
 }
 
 .contact__info {
+  max-width: 86%;
+  min-width: 700px;
   display: flex;
+  justify-content: space-between;
+  column-gap: 10px;
+  row-gap: 10px;
 }
 
 .contact__info__link {
@@ -24,10 +29,6 @@
 .contact__info__link:hover {
   color: gray;
   border-bottom: 2px solid gray;
-}
-
-.phone {
-  margin-right: 118px;
 }
 
 .phone::before {
@@ -56,13 +57,12 @@
   .contacts {
     padding: 120px 0 80px 0;
   }
+  .contact__info{
+    max-width: 83%;
+  }
 
   .contact__info__link {
     font-size: 45px;
-  }
-
-  .phone {
-    margin-right: 114px;
   }
 }
 
@@ -78,6 +78,7 @@
   }
 
   .contact__info {
+    width: 100%;
     flex-direction: column;
   }
 
@@ -86,10 +87,6 @@
     line-height: 45px;
   }
 
-  .phone {
-    margin-right: 0;
-    margin-bottom: 23px;
-  }
 
   .phone::before {
     width: 9px;
