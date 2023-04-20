@@ -59,6 +59,7 @@
   }
   .contact__info{
     max-width: 83%;
+
   }
 
   .contact__info__link {
@@ -78,7 +79,8 @@
   }
 
   .contact__info {
-    width: 100%;
+    min-width: unset;
+    display: flex;
     flex-direction: column;
   }
 
@@ -92,6 +94,12 @@
     width: 9px;
     height: 16px;
     margin-bottom: 20px;
+    margin-right: 0;
+  }
+  .phone{
+    width: 100%;
+    margin-bottom: 20px;
+    white-space: nowrap;
   }
 
   .mail::before {
